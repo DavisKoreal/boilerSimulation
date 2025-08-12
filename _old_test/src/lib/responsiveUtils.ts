@@ -12,11 +12,11 @@ export function createResponsiveStyles<T>(
       .map(([breakpoint, val]) => {
         const bp = breakpoints[breakpoint as Breakpoint];
         const cssValue = transform ? transform(val as T) : String(val);
-        return `@media (min-width: ${bp}) { ${property}: ${cssValue} }`;
+        return `@media (min-width: ${bp}) { ${property}: ${cssValue}; }`;
       })
       .join('\n');
   }
   
   const cssValue = transform ? transform(value as T) : String(value);
-  return `${property}: ${cssValue}`;
+  return `${property}: ${cssValue};`;
 }

@@ -12,7 +12,7 @@ export const Card: React.FC<CardProps> = ({ children, className = '' }) => {
     padding: clamp(1rem, 3vw, 1.5rem);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     border: 1px solid #f1f5f9;
-    transition: all 0.2s ease
+    transition: all 0.2s ease;
   `;
 
   return (

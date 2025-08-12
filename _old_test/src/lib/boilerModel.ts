@@ -77,12 +77,12 @@ function calculateSteamTemp(pressure: number): number {
   return 212 + pressure * 1.7;
 }
 
-function calculateSensibleHeat(inletTemp: number, steamTemp: number): number {
-  return steamTemp - (inletTemp * 1.8 + 32);
-}
-
 function getLatentHeat(pressure: number): number {
   return 970 - pressure * 0.5;
+}
+
+function calculateSensibleHeat(inletTemp: number, steamTemp: number): number {
+  return steamTemp - (inletTemp * 1.8 + 32);
 }
 
 function calculateEmissions(fuelType: string): { [key: string]: number } {

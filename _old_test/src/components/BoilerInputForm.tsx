@@ -45,7 +45,7 @@ export default function BoilerInputForm({ onSubmit, addActivity }: BoilerInputFo
     color: #1e293b;
     &:focus {
       outline: 2px solid #3b82f6;
-      outline-offset: 2px
+      outline-offset: 2px;
     }
   `;
 
@@ -63,11 +63,11 @@ export default function BoilerInputForm({ onSubmit, addActivity }: BoilerInputFo
     transition: all 0.2s ease;
     &:hover {
       transform: translateY(-1px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
-    };
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
     &:focus {
       outline: 2px solid #3b82f6;
-      outline-offset: 2px
+      outline-offset: 2px;
     }
   `;
 

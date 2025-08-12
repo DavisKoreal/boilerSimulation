@@ -32,7 +32,7 @@ export default function Home() {
     ${createResponsiveStyles('padding', { sm: '1rem', md: '1.5rem' })}
     position: sticky;
     top: 0;
-    z-index: 40
+    z-index: 40;
   `;
 
   const containerStyles = `
@@ -40,13 +40,13 @@ export default function Home() {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
   `;
 
   const mainStyles = `
     ${createResponsiveStyles('padding', { sm: '1rem', md: '2rem' })}
     max-width: 1200px;
-    margin: 0 auto
+    margin: 0 auto;
   `;
 
   const searchStyles = `
@@ -56,7 +56,7 @@ export default function Home() {
     border-radius: 8px;
     padding: 0.5rem 1rem;
     ${createResponsiveStyles('min-width', { sm: '200px', md: '300px' })}
-    border: 1px solid #e2e8f0
+    border: 1px solid #e2e8f0;
   `;
 
   const buttonStyles = `
@@ -69,7 +69,7 @@ export default function Home() {
     min-width: 44px;
     &:focus {
       outline: 2px solid #3b82f6;
-      outline-offset: 2px
+      outline-offset: 2px;
     }
   `;
 
@@ -128,22 +128,22 @@ export default function Home() {
         
         .card:hover {
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
-          transform: translateY(-1px)
+          transform: translateY(-1px);
         }
         
         button, a {
           min-height: 44px;
           min-width: 44px;
-          touch-action: manipulation
+          touch-action: manipulation;
         }
         
         button:focus, input:focus {
           outline: 2px solid #3b82f6;
-          outline-offset: 2px
+          outline-offset: 2px;
         }
         
         html {
-          scroll-behavior: smooth
+          scroll-behavior: smooth;
         }
       `}</style>
     </div>

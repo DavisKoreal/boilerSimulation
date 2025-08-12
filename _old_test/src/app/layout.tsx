@@ -6,11 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Boiler Visualization Dashboard',
   description: 'A responsive dashboard for boiler simulation',
-};
-
-export const viewport = {
-  width: 'device-width',
-  initialScale: 1,
+  viewport: 'width=device-width, initial-scale=1',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

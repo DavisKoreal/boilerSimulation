@@ -19,7 +19,7 @@ export const Grid: React.FC<GridProps> = ({
     ${createResponsiveStyles('gap', gap)}
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto
+    margin: 0 auto;
   `;
 
   return <div style={{ cssText: gridStyles }}>{children}</div>;

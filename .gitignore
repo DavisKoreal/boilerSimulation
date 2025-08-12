@@ -1,0 +1,36 @@
+*modules*
+# Ignore all node_modules directories
+node_modules/
+# Ignore all log files
+*.log
+# Ignore all temporary files
+*.tmp
+# Ignore all build directories
+build/
+# Ignore all coverage reports
+coverage/
+# Ignore all environment files
+.env
+# Ignore all IDE specific files
+.idea/
+# Ignore all OS generated files
+.DS_Store
+# Ignore all Python bytecode files
+*.pyc
+# Ignore all Python cache directories
+__pycache__/
+# Ignore all virtual environment directories
+venv/
+# Ignore all Docker files
+Dockerfile
+# Ignore all Docker Compose files
+docker-compose.yml
+# Ignore all configuration files
+config.json
+
+# Ignore all test files
+test/
+# Ignore all documentation files
+docs/
+# Ignore all backup files
+*.bak

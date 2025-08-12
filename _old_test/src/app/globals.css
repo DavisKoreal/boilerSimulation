@@ -1,0 +1,16 @@
+:root {
+  --container-max-width: 1200px;
+  --container-padding: clamp(1rem, 5vw, 3rem);
+  --grid-gap: clamp(1rem, 3vw, 2rem);
+  --border-radius: clamp(8px, 1vw, 12px);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
