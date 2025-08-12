@@ -34,3 +34,5 @@ test/
 docs/
 # Ignore all backup files
 *.bak
+*.sh
+*.ps1
