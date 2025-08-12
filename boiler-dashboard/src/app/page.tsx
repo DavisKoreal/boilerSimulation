@@ -17,7 +17,13 @@ export default function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activities, setActivities] = useState<string[]>([]);
 
-  const handleSubmit = (inputs: Parameters<typeof boiler>[0] & Parameters<typeof boiler>[1] & Parameters<typeof boiler>[2] & Parameters<typeof boiler>[3] & Parameters<typeof boiler>[4]) => {
+  const handleSubmit = (inputs: {
+    fuel: Parameters<typeof boiler>[0];
+    water: Parameters<typeof boiler>[1];
+    air: Parameters<typeof boiler>[2];
+    electricity: Parameters<typeof boiler>[3];
+    controlSettings: Parameters<typeof boiler>[4];
+  }) => {
     const result = boiler(inputs.fuel, inputs.water, inputs.air, inputs.electricity, inputs.controlSettings);
     setOutput(result);
   };
